@@ -16,8 +16,8 @@ section.homepage-story
 section.homepage-story
   .container
     .row
-      .story-content
-        = markdown data.pages.home.story2
+      .story-content style=background_image(image_path(data.pages.home.hero.image))
+        = markdown data.pages.home.story2.content
 
 section.homepage-products.products
   .container
