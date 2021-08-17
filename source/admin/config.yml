@@ -55,6 +55,12 @@ collections:
           - label: Story
             name: story
             widget: markdown
+          - label: Story 2
+            name: story2
+            widget: object
+            fields:
+              - {label: Text, name: content, widget: string}
+              - {label: Image, name: image, widget: image}
 
   - name: settings
     label: Settings
